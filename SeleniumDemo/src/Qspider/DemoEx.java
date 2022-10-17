@@ -22,6 +22,7 @@ public class DemoEx {
 		
 		driver.get("https://www.google.com");
 		driver.findElement(By.xpath("//input[@name='q']")).sendKeys("Qspider");
+		System.out.println("Writing on search Bar in google")
 		driver.close();
 	}
 
