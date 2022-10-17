@@ -24,6 +24,7 @@ public class DemoEx {
 		driver.findElement(By.xpath("//input[@name='q']")).sendKeys("Qspider");
 		System.out.println("Writing on search Bar in google");
 		System.out.println("Again push to github");
+		System.out.println("After update ");
 	
 		driver.close();
 	}
